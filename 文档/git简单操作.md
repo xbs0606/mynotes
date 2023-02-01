@@ -57,5 +57,3 @@ git remote add origin ****.git （****.git为所建立的项目的地址）
 ```git
 git push -u origin main（main为需要上传的分支名）
 ```
-
-

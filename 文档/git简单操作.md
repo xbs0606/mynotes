@@ -1,4 +1,5 @@
 # 基础操作
+[菜鸟教程](https://www.runoob.com/git/git-tutorial.html)
 [CSDNgit常用命令](https://blog.csdn.net/qtiao/article/details/97783243#:~:text=Git%20%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8%201%20git%20config%20%EF%BC%9A%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%202%20git,7%20git%20rm%20%EF%BC%9A%E5%88%A0%E9%99%A4%E5%91%BD%E4%BB%A4%208%20git%20mv%20%EF%BC%9A%E7%A7%BB%E5%8A%A8%E6%88%96%E9%87%8D%E5%91%BD%E5%90%8D%E5%91%BD%E4%BB%A4)
 ## 配置用户名 邮箱
 ``` git
@@ -45,3 +46,16 @@ git log
 ```git
 git checkout HEAD 文件
 ```
+## 本地关联自己的gitub仓库
+[csdn教程](https://blog.csdn.net/caip12999203000/article/details/126450842)
+
+```git
+git remote add origin ****.git （****.git为所建立的项目的地址）
+ 
+例如 git remote add origin https://github.com/xbs0606/mynotes.git
+```
+```git
+git push -u origin main（main为需要上传的分支名）
+```
+
+

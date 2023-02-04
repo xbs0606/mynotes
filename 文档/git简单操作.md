@@ -57,3 +57,27 @@ git remote add origin ****.git （****.git为所建立的项目的地址）
 ```git
 git push -u origin main（main为需要上传的分支名）
 ```
+## git提交克隆报错
+```git
+//取消http代理
+//取消https代理 
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+****
+```
+# hexo
+## 启动
+```git
+hexo s
+```
+## 修改git配置（加大httpBuffer）
+问题原因： http缓存不够或者网络不稳定等。
+```git
+git config --global http.postBuffer 524288000
+```
+##
+>有时候我们在GitHub上clone一些项目的时候，会出现error: RPC failed; curl 28 OpenSSL SSL_read: Connection was reset, errno 10054 fatal: expected flush after ref listing错误。
+
+```git
+git config --global http.sslVerify "false"
+```
